@@ -1,0 +1,24 @@
+# terraform state
+*.tfstate
+*.tfstate.*
+terraform.tfstate
+terraform.tfstate.backup
+
+# terraform internal dirs
+.terraform/
+.terraform.lock.hcl
+
+# variable files
+*.tfvars
+*.tfvars.json
+terraform.tfvars
+
+# secrets
+.env
+.env.*
+
+# misc
+*.log
+.DS_Store
+.idea/
+.vscode/
